@@ -9,10 +9,10 @@ return {
         "rust",
       },
     },
-    build = function()
-      require("nvim-treesitter.install").prefer_git = true
-      require("nvim-treesitter.install").update({ with_sync = true })
-    end,
+    -- build = function()
+    --   require("nvim-treesitter.install").prefer_git = true
+    --   require("nvim-treesitter.install").update({ with_sync = true })
+    -- end,
     config = function(_, opts)
       opts.highlight.disable = function(lang, buf)
         local max_filesize = 100 * 1024 -- 100 KB
