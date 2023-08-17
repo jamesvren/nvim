@@ -1,1 +1,1 @@
-My customized nvim configuratoin
+Customized from lazyvim(https://www.lazyvim.org/)
