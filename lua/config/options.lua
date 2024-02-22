@@ -3,3 +3,5 @@
 -- Add any additional options here
 
 vim.opt.mouse = 'v' -- disable mouse
+-- vim.g.autoformat = false  -- globally
+-- vim.b.autoformat = false  -- buffer-local
